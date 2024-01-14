@@ -7,3 +7,13 @@
  */
 
 const NUMBERS = [1, 2, 3, 4, 5];
+
+export const sumNumbersFromInitialValue = function (NUMBERS, initialValue) {
+  let sumNumbers = initialValue;
+
+  for (let index = 0; index < NUMBERS.length; index++) {
+    sumNumbers += NUMBERS[index];
+  }
+
+  return sumNumbers;
+};
