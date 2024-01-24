@@ -6,7 +6,7 @@ test("When SECONDS array is provided as an argument. Then expected array should 
     const SECONDS = [2, 5, 100];
     const expectedResult = ["2", "5", "100"];
 
-    // Act
+    // Act  
     const result = transformSecondsToWords(SECONDS);
 
     // Assert
