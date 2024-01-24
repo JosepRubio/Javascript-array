@@ -9,12 +9,11 @@
 const MONKEYS = ["🐒", "🦍", "🦧"];
 
 export const feedMonkeys = function (fruit) {
-const mappedMonkeys = MONKEYS.map((monkey) => {
-const currentMonkey = `${monkey} ${fruit}`;
+  const mappedMonkeys = MONKEYS.map((monkey) => {
+    const currentMonkey = `${monkey} ${fruit}`;
 
-return currentMonkey;
+    return currentMonkey;
+  });
 
-});
-
-return mappedMonkeys;
+  return mappedMonkeys;
 };
